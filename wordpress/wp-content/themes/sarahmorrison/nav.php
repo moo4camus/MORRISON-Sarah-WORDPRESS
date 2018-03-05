@@ -1,9 +1,9 @@
 <!-- <?php echo basename(__FILE__); ?> -->
-<nav>
+<div class="nav">
   <ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
   </ul>
-</nav>
+</div>
 <!-- <?php echo "END OF " . basename(__FILE__); ?> -->

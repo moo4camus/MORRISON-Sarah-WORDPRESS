@@ -6,3 +6,87 @@ Author: Sarah J. Morrison
 Description: A custom theme developed in IDM6630
 
 */
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|Open+Sans|Open+Sans+Condensed:300');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-image: url("images/background.png");
+  background-repeat: no-repeat;
+  background-color: #ffcccc;
+}
+
+.page-wrap {
+	width: 70%;
+	margin: 0em auto;
+	background-color: #ffffff;
+}
+
+header {
+  background-color: #ffffff;
+  width: 70%;
+  margin: 3em auto 1em;
+  padding-top: 1em;
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 300%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 200%;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 100%;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.nav {
+  font-family: 'Special Elite', cursive;
+	background-color: #c3c3c3;
+	color: #fff;
+	font-weight: normal;
+}
+
+.nav li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 2.5em;
+	padding: 0.75em 0em;
+}
+
+main {
+  padding: 3em 4em;
+  margin-top: 0;
+  font-family: 'Open Sas', sans-serif;
+  line-height: 1.7em;
+}
+
+footer {
+  background-color: #ffffff;
+  width: 70%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #000000;
+}
