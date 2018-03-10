@@ -19,6 +19,8 @@ html {
 body {
 	background-image: url("images/background.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-color: #ffcccc;
 }
 
@@ -76,6 +78,14 @@ main {
   line-height: 1.7em;
 }
 
+.posts {
+  padding-bottom: 1em;
+}
+
+.category {
+  list-style-type: none;
+}
+
 footer {
   background-color: #ffffff;
   width: 70%;
@@ -84,9 +94,17 @@ footer {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #eeeeee;
 }
 
 a:hover {
   color: #000000;
+}
+
+.category a {
+  color: #DAA520;
+}
+
+.category a:hover {
+  color: #ffcccc;
 }
