@@ -84,6 +84,14 @@ main {
 
 .category {
   list-style-type: none;
+  text-align: right;
+}
+
+.category li {
+  list-style-type: none;
+	display: inline-block;
+  text-align: right;
+  margin-left: 2.5em;
 }
 
 footer {
@@ -92,19 +100,27 @@ footer {
   margin: auto;
 }
 
-a {
-  text-decoration: none;
-  color: #eeeeee;
+.nav a {
+  color: #ffffff;
 }
 
-a:hover {
+.nav a:hover {
   color: #000000;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #daa520;
+}
+
 .category a {
-  color: #DAA520;
+  color: #ffcccc;
 }
 
 .category a:hover {
-  color: #ffcccc;
+  color: #DAA520;
 }
