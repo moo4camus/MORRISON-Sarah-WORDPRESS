@@ -1,11 +1,4 @@
 <!-- <?php echo basename(__FILE__); ?> -->
-<html>
-  <head>
-    <title><?php echo get_bloginfo('name'); ?></title>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
-    <?php wp_head(); ?>
-  </head>
-  <body>
     <header>
       <h1><?php echo get_bloginfo('name'); ?></h1>
       <h2><?php echo get_bloginfo('description'); ?></h2>

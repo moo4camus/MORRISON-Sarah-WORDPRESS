@@ -1,6 +1,7 @@
 <?php
 if ( have_posts() ) : while ( have_posts() ) : the_post();
 ?>
+  <div <?php post_class(); ?>
   <div class="title">
     <a href='<?php the_permalink(); ?>'>
       <?php
@@ -8,7 +9,7 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
      ?></a>
   </div>
 
-  <div class="posts">
+  <div <?php body_class(); ?>>
     <?php
     the_content(); ?>
     <div class="category"><?php

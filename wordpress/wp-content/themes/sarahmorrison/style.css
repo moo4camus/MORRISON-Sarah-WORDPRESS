@@ -78,13 +78,10 @@ main {
   line-height: 1.7em;
 }
 
-.posts {
-  padding-bottom: 1em;
-}
-
 .category {
   list-style-type: none;
   text-align: right;
+  padding-bottom: 1em;
 }
 
 .category li {
