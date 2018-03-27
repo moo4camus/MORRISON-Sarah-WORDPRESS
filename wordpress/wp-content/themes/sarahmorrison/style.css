@@ -74,22 +74,43 @@ h3 {
 main {
   padding: 3em 4em;
   margin-top: 0;
-  font-family: 'Open Sas', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.7em;
+}
+
+.author {
+  text-align: right;
+  font-style: italic;
 }
 
 .category {
   list-style-type: none;
   text-align: right;
   padding-bottom: 1em;
+  font-family: 'Special Elite', cursive;
 }
 
 .category li {
   list-style-type: none;
 	display: inline-block;
   text-align: right;
-  margin-left: 2.5em;
+  margin-left: 1em;
 }
+
+/*single post*/
+
+.single .page-wrap{
+	width: 70%;
+	margin: 0em auto;
+	background-color: #ffcccc;
+}
+
+.post img {
+  display: block;
+  margin: auto;
+}
+
+/* footer */
 
 footer {
   background-color: #ffffff;
@@ -97,6 +118,7 @@ footer {
   margin: auto;
 }
 
+/* link styling */
 .nav a {
   color: #ffffff;
 }
@@ -111,13 +133,17 @@ a {
 }
 
 a:hover {
-  color: #daa520;
+  color: #8b8bf2;
 }
 
 .category a {
-  color: #ffcccc;
+  color: #ffffff;
 }
 
 .category a:hover {
   color: #DAA520;
+}
+
+.category-media a h2:hover {
+  color: #DAA520
 }
